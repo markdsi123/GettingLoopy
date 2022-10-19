@@ -1,47 +1,30 @@
-public class Main
-{
-    public static void main(String[] args)
-    {
-        //Part A
-        for (int x = 0; x <= 30; x++)
-        {
-            System.out.println(x);
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i <= 30; i++) {
+            System.out.print(i+ " ");
         }
 
-        for (int l = 0; l < 3; l++) //blank lines
-        {
-            System.out.println();
+        System.out.println("\n");
+
+        for(int i = 30; i >= 0; i--){
+            System.out.print(i+ " ");
         }
 
-        for (int x = 30; x >= 0; x--)
+        System.out.println("\n");
+
+        for(int i = 0; i<=18;i+=3)
         {
-            System.out.println(x);
+            System.out.print(i + " ");
         }
 
-        for (int l = 0; l < 3; l++) //blank lines
+        System.out.println("\n");
+
+        for(int i = 10; i>=0;i-=2)
         {
-            System.out.println();
+            System.out.print(i + " ");
         }
 
-        for (int x = 0; x <= 18; x+= 3)
-        {
-            System.out.println(x);
-        }
-
-        for (int l = 0; l < 3; l++) //blank lines
-        {
-            System.out.println();
-        }
-
-        for (int x = 10; x >= 0; x-= 2)
-        {
-            System.out.println(x);
-        }
-
-        for (int l = 0; l < 3; l++) //blank lines
-        {
-            System.out.println();
-        }
+        System.out.println("\n");
 
         //Part B
         for (int i = 1; i <= 5; i++)
@@ -81,5 +64,29 @@ public class Main
             System.out.println();
         }
 
+
+
+        System.out.println("\n");
+
+        for(int i = 1; i<=3; i++)
+        {
+            for(int a = 1; a<=18; a++)
+            {
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+        for(int i = 0; i <6; i++)
+        {
+            for(int s = 8; s >1; s--)
+            {
+                System.out.print(" ");
+            }
+            for(int a = 1; a <=3; a++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
